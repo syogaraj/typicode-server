@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     executor.getResults(topPostQuery).then(result => {
         res.send(result);
     }).catch(error => {
-        res.status(500);
+        res.sendStatus(500);
     })
 });
 
