@@ -5,7 +5,7 @@ var dbConnectionInfo = {
     port: 3306,
     user: 'root',
     password: 'root',
-    database: 'ormae',
+    database: 'dummy',
     connectionLimit: 100
 };
 
